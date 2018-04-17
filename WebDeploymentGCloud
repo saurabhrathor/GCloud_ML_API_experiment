@@ -1,0 +1,12 @@
+1. Login to gcloud
+2. Create a new VM. for cheaper option - 
+	a. take US server
+	b. minimum storage 10gb
+	c. any ISO - ubuntu
+	d. External IP - ephemeral ( to keep it fixed even when VM is stopped)
+3. Start the VM
+4. Upgrade the linux installer --> apt-get ----- apt-get update
+5. install apache2 --> apt-get install apache2
+6. basic html can be checked at --> /var/www/.html
+7. Create a new hostname (free for testing). You can use - freenom.com
+8. configure External IP of VM to above domain.
